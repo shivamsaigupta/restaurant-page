@@ -1,10 +1,13 @@
 const setup = () => {
   const mainContainer = document.querySelector('#main-container');
   const header = document.createElement('header');
+
+  const titleContainer = document.createElement('div');
+  titleContainer.setAttribute('id', 'title-container');
   const title = document.createElement('h2');
   title.textContent = "Gupta's Luxurious Indian Restaurant";
-  header.appendChild(title);
-
+  titleContainer.appendChild(title);
+  header.appendChild(titleContainer);
 
   const tabs = document.createElement('ul');
   tabs.classList.add('tabs');
