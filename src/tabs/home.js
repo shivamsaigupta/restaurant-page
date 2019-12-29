@@ -8,7 +8,7 @@ const home = () => {
   imgContainer.innerHTML = "<img class='large' src='./imgs/food.jpg' alt='food' />";
 
   const contentPara = document.createElement('p');
-  contentPara.textContent = "Enjoy the taste of Bombay right here in Vancouver Canada. Come join us at Gupta's Indian Restaurant!";
+  contentPara.textContent = "Enjoy the taste of Bombay right here in Vancouver Canada. Come join us at Sharma's Indian Restaurant!";
   content.appendChild(imgContainer);
   content.appendChild(contentPara);
   mainContainer.append(content);
