@@ -5,7 +5,7 @@ const setup = () => {
   const titleContainer = document.createElement("div");
   titleContainer.setAttribute("id", "title-container");
   const title = document.createElement("h2");
-  title.textContent = "Gupta's Luxurious Indian Restaurant";
+  title.textContent = "Sharma's Luxurious Indian Restaurant";
   titleContainer.appendChild(title);
   header.appendChild(titleContainer);
 
